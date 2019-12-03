@@ -1,0 +1,199 @@
+<template>
+  <div class="detaillBox"  >
+    <div class="detaillTable clear">
+      <div class="detaillTopBox">
+        <span><i class="iconfont iconcaidan"></i>导入记录</span>
+      </div>
+      <el-table
+        :data="returnData.items"
+        border
+        stripe
+        style="width: 90%"
+        size="small">
+        <el-table-column
+          type="index"
+          align="center"
+          prop="id"
+          label="序号"
+          width="50">
+
+        </el-table-column>
+        <el-table-column
+          label="操作者"
+          align="center">
+          <template slot-scope="scope">
+            <span>{{scope.row.userInfo.userFullName}}</span>
+          </template>
+        </el-table-column>
+        <el-table-column
+          prop="importTime"
+          label="操作时间"
+          align="center">
+          <template slot-scope="scope">
+            <span>{{scope.row.importTime }}</span>
+          </template>
+        </el-table-column>
+        <el-table-column
+          label="导入文件"
+          align="center">
+          <template slot-scope="scope">
+            <el-button type="text" size="small"
+                       @click="getFileDownload(scope.row.filePathDTOImport.id)"
+                       v-if="scope.row.filePathDTOImport!=null">{{scope.row.filePathDTOImport.name}}</el-button>
+          </template>
+        </el-table-column>
+        <el-table-column
+          label="导入失败反馈"
+          align="center">
+          <template slot-scope="scope">
+            <el-button type="text" size="small"
+                       @click="getFileDownload(scope.row.filePathDTOImportError.id)"
+                       v-if="scope.row.filePathDTOImportError!=null">{{scope.row.filePathDTOImportError.name}}</el-button>
+          </template>
+        </el-table-column>
+      </el-table>
+      <div class="block">
+        <span class="demonstration"></span>
+        <el-pagination
+          @size-change="handleSizeChange"
+          @current-change="handleCurrentChange"
+          :current-page="currentPage"
+          :page-sizes="[10,20,30,40,50,100,500]"
+          :page-size="10"
+          layout="total, sizes, prev, pager, next, jumper"
+          style="height: 38px;"
+          :total="returnData.total">
+        </el-pagination>
+      </div>
+    </div>
+    <div class="button-box">
+      <el-button type="primary"  @click="purRetun()">关闭</el-button>
+      <el-button type="primary" v-backTop>回顶部</el-button>
+    </div>
+  </div>
+
+</template>
+<script>
+  import {postPaymentRecord} from  '@/api/purchase/PurchasePaymentsList'
+  export default {
+    name: "PurchasePaymentImport",
+    inject: ["reload", "close"],
+    data() {
+      return {
+        msg: '',
+        returnData: {
+          items: [],
+          offset: 0,
+          pageNum: 0,
+          pageSize: 0,
+          total: 0
+        },
+        query: {
+          pageNum: 1,
+          pageSize: 10,
+        },
+        tableDataMis: {
+
+        },
+        tableData: [{
+
+        }],
+        currentPage: 1,
+      }
+    },
+    created() {
+      this.postPaymentRecord()
+    },
+    mounted() {
+      //alert(this.$route.query.Id);
+
+    },
+    methods: {
+      postPaymentRecord(){
+        postPaymentRecord(
+          this.query
+        ).then((res)=>{
+          this.returnData=res.data;
+          console.log(res);
+        }).catch(err => {
+
+        });
+      },
+
+
+      //单独文件下载
+      getFileDownload(id) {
+        // console.log(row.id);
+        let token='&access_token='+this.$auth.token;
+        let href = '/api/file-service/file/download?id='+id + token;
+        window.open(href, '_blank')
+      },
+      //翻页
+      handleSizeChange(val) {
+        console.log(`每页 ${val} 条`);
+        this.query.pageSize = val;
+        this.query.pageNum = 1;
+        this.postPaymentRecord()
+      },
+      handleCurrentChange(val) {
+        this.query.pageNum = val;
+        console.log(`当前页: ${val}`);
+        this.postPaymentRecord()
+      },
+      purRetun(){
+        this.close({name:'PurchasePaymentImport', to: {name:'PurchasePaymentsList', params:{isUpdate:true}}})
+      }
+    },
+    watch: {
+      // 监测路由变化,只要变化了就调用获取路由参数方法将数据存储本组件即可
+      '$route': 'getParams'
+    },
+    filters: {
+      //时间截取字符串
+      formatDate: function (value) {
+        return value.substring(0, 10);
+      }
+    }
+  }
+</script>
+<style scoped lang="less">
+  @tableBorderColor: #e4e4e4;
+  .detaillBox {
+    width: 100%;
+    padding-top: 10px;
+    .detaillTable {
+      border: 1px solid #d1d1d1;
+      .detaillTopBox {
+        height: 50px;
+        background: #f3f3f3;
+        border-bottom: 1px solid #d1d1d1;
+        span {
+          line-height: 50px;
+          margin-left: 10px;
+          i {
+
+          }
+        }
+      }
+      .el-table {
+        margin: 20px auto;
+        width: 90%;
+        .el-button {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .button-box{
+    width: 90%;
+    margin: 20px auto 50px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .block {
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: right;
+  }
+
+</style>

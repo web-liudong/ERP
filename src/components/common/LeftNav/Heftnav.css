@@ -1,0 +1,8 @@
+.leftnav .is-active{
+        background-color: #339999!important;
+        color: #fff;
+    }
+.leftnav li:hover{
+    /*background: #339999 !important;*/
+    color: #ffffff!important;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="web前端, css, jQuery, javascript" />
+	<title>打印</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-size: 14px;
+		}
+
+		.container {
+			font-family: "微软雅黑", arial, sans-serif;
+			position: relative;
+			width: 800px;
+			margin: 0 auto;
+		}
+
+		.container img {
+			display: block;
+			width: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container" id="container">
+	</div>
+</body>
+<script id="tplContent" type="text/html">
+	<% 
+		for(var i=0, imax= data.length; i<imax; i++){
+			var item = 'data:image/png;base64,'+data[i].base64;
+	%>
+	<img src="<%=item%>" width="100%" height="100%" />
+	<%}%>
+</script>
+<script src="../js/mini-tpl.js"></script>
+<script type="">
+window.onload =function(){
+	window.addEventListener("message", function(event){//自己定义的一个监听的message
+	  let data = event.data;//event  是vue文件中把已经处理好的数据传过来的
+	  if(data.cmd=='getFormJson'){//数据类型，对应的字段都可以自己定义	
+		var content = document.getElementById('tplContent').innerHTML;
+		var result = miniTpl(content, data.info);
+		document.getElementById('container').innerHTML = result;
+      }
+    });
+  }
+</script>
+
+</html>

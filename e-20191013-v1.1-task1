@@ -1,0 +1,514 @@
+[33mcommit db64735cd1e3964742f8b676d05239c7183e9534[m[33m ([m[1;36mHEAD -> [m[1;32mfeature-release-20191013-v1.1-task1[m[33m)[m
+Author: zhangyanxiong <2283609260@qq.com>
+Date:   Fri Nov 1 11:15:23 2019 +0800
+
+    ADD 采购单编辑添加小计
+
+[33mcommit c845457ded2bc6b0a37f6bae3db28e44d1e8c831[m
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 31 18:29:03 2019 +0800
+
+    商品添加第三部实现拖拽功能
+
+[33mcommit 46323172099b485f302e5c18c585dc5922863b82[m
+Merge: e30bccd0 e4d997a9
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 31 18:20:44 2019 +0800
+
+    Merge branch 'feature-release-20191013-v1.1-task1' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-release-20191013-v1.1-task1
+
+[33mcommit e30bccd0e2cdd8c8a19579aea2a9553aacd205ae[m
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 31 18:20:30 2019 +0800
+
+    xiu
+
+[33mcommit ee34a92f44b7748a09134c65c268fd06fb4bcbfa[m
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 31 16:28:51 2019 +0800
+
+    修改编辑
+
+[33mcommit e4d997a9a6cebf9a94aa1368415134f46d8d0864[m
+Merge: 640ad8f9 74b8b0be
+Author: DESKTOP-01SRE7S\86131 <827495112@qq.com>
+Date:   Thu Oct 31 14:08:39 2019 +0800
+
+    Merge branch 'release' into feature-release-20191013-v1.1-task1
+
+[33mcommit 640ad8f9cb0b2dd057984a74c4f7b0c006c43a2a[m
+Author: DESKTOP-01SRE7S\86131 <827495112@qq.com>
+Date:   Thu Oct 31 13:55:48 2019 +0800
+
+    采购单审批不勾选结果 显示提示信息
+
+[33mcommit 6baf9b309a457fec08fa7e1d377597d680ccf79d[m
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 31 11:35:13 2019 +0800
+
+    xiugai
+
+[33mcommit b2d984324f3251f2a7d49f832845a2c68635e75e[m
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 31 11:13:39 2019 +0800
+
+    修改编辑商品
+
+[33mcommit 9db584a33155916870f7e9d4a91fb7b487977504[m
+Merge: 5272c3a4 c9314b46
+Author: wangjiang <472788915@qq.com>
+Date:   Wed Oct 30 19:03:57 2019 +0800
+
+    Merge branch 'feature-release-20191013-v1.1-task1' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-release-20191013-v1.1-task1
+
+[33mcommit 5272c3a4eb6b258b84eefcc35bfe60c4892dbd24[m
+Author: wangjiang <472788915@qq.com>
+Date:   Wed Oct 30 19:03:36 2019 +0800
+
+    客户对应管理接口
+
+[33mcommit c9314b46bc78a350cdcd1c5bf1346d9e1aa74190[m
+Merge: 66a52e63 540905d9
+Author: shiruice <2360921698@qq.com>
+Date:   Wed Oct 30 09:50:37 2019 +0800
+
+    Merge branch 'feature-release-20191013-v1.1-task1' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-release-20191013-v1.1-task1
+
+[33mcommit 66a52e637a0d5d5055b53bee6c3f6cd7dfc88b55[m
+Author: shiruice <2360921698@qq.com>
+Date:   Wed Oct 30 09:50:30 2019 +0800
+
+    完善发票作废&集采发票作废
+
+[33mcommit 540905d9fe01588f8a43d7fa08faecb01c74e09c[m
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 29 18:55:54 2019 +0800
+
+    新增客户数据对应管理api
+
+[33mcommit b9c54f02610f211b27f77b7ba0e13c12d628c112[m
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 29 17:55:44 2019 +0800
+
+    修改复制
+
+[33mcommit 20022bd2792ade2cb54e30e721c2fc0e721d5af7[m
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 29 15:06:52 2019 +0800
+
+    修改路由
+
+[33mcommit 45ebee1713015807c09cb57d257ca12302b41e63[m
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 29 14:58:48 2019 +0800
+
+    新增商品对应管理路由
+
+[33mcommit 74b8b0be23ef23ebae6ad9dfba1b13f24a18a5e2[m
+Merge: 5cccb981 bb586bb1
+Author: 李海涛 <474133285@qq.com>
+Date:   Mon Oct 28 09:05:52 2019 +0000
+
+    Merge branch 'feature-release-20191013-v1.1-task1' into 'release'
+    
+    task1提交合并
+    
+    See merge request leading-frontend/leading-erp-frontend!1840
+
+[33mcommit bb586bb1837e08e6788ec68e505fbbf696d8f4d1[m
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 24 17:10:46 2019 +0800
+
+    修改商品对应管理
+
+[33mcommit 769e03778d4999c8fac2e60b19310a7f26250af4[m
+Merge: dc1c0cf9 c93db1ae
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 24 17:07:12 2019 +0800
+
+    Merge branch 'feature-release-20191013-v1.1-task1' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-release-20191013-v1.1-task1
+
+[33mcommit dc1c0cf90b1278f855cd185ac16eee025e9a0ccd[m
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 24 17:07:03 2019 +0800
+
+    修改商品详情
+
+[33mcommit c93db1aecf26302733a74fc1387f4501a4f058da[m
+Author: CuiHaoLiang <cuihaoliang@66123123.com>
+Date:   Thu Oct 24 17:01:48 2019 +0800
+
+    认款增加关联旧ERP、仓库检索、审核BUG
+
+[33mcommit b63f8a8abc80d8d8493768ca1cb394c9e1008748[m
+Merge: 1e68bf2f 1671797d
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 24 16:21:19 2019 +0800
+
+    Merge branch 'feature-release-20191013-v1.1-task1' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-release-20191013-v1.1-task1
+
+[33mcommit 1e68bf2f6df26bcde05c377d9f10df0da9c013b9[m
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 24 16:20:58 2019 +0800
+
+    项目对应管理开发完毕
+
+[33mcommit 461d943d5fa61f978a530fb21d53434cb0750e62[m
+Author: wangjiang <472788915@qq.com>
+Date:   Thu Oct 24 10:34:46 2019 +0800
+
+    xiugai
+
+[33mcommit 1671797da11456ec85c29b9fb09e57b779a705d1[m
+Merge: db34dc57 e9d100ce
+Author: shiruice <2360921698@qq.com>
+Date:   Thu Oct 24 10:29:57 2019 +0800
+
+    Merge branch 'feature-release-20191013-v1.1-task1' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-release-20191013-v1.1-task1
+
+[33mcommit db34dc575afd8c88c8fccec1f4a2654a00bf47e3[m
+Author: shiruice <2360921698@qq.com>
+Date:   Thu Oct 24 10:29:32 2019 +0800
+
+    发票（集采）作废申请
+
+[33mcommit e9d100cecbbda2134e93109ba0f68f87cf671bcf[m
+Author: DESKTOP-9I64JMA\90665 <906650715@qq.com>
+Date:   Thu Oct 24 10:04:00 2019 +0800
+
+    订单员配置页面-小修改
+
+[33mcommit e6e5a2e62a5f1026c07478bd2d03cf3fea420ccc[m
+Author: wangjiang <472788915@qq.com>
+Date:   Wed Oct 23 18:28:28 2019 +0800
+
+    新增项目对应
+
+[33mcommit d9b40c37019625e1527ca3c2c583fd3799534ab2[m
+Author: wangjiang <472788915@qq.com>
+Date:   Wed Oct 23 16:01:25 2019 +0800
+
+    新增项目对应模块基础东西
+
+[33mcommit f1e05e2124a8403dc2ecc15a0d26861b5614bead[m
+Author: wangjiang <472788915@qq.com>
+Date:   Wed Oct 23 15:23:27 2019 +0800
+
+    找回22号撤回审核代码
+
+[33mcommit 8839d65129faf13af3077e138866d23c611b2815[m
+Author: wangjiang <472788915@qq.com>
+Date:   Wed Oct 23 15:22:00 2019 +0800
+
+    新增项目数据对应管理
+
+[33mcommit 102afa205ad4462be14a9b08f576808c5864239a[m
+Author: wangjiang <472788915@qq.com>
+Date:   Wed Oct 23 14:43:27 2019 +0800
+
+    修改
+
+[33mcommit 09c8f71fd49cbd7c59b9ac5cd1bed820cb68d2a0[m
+Merge: 5ad700d2 5cccb981
+Author: wangjiang <472788915@qq.com>
+Date:   Wed Oct 23 14:43:09 2019 +0800
+
+    从release拉取代码
+
+[33mcommit 5ad700d266ea8d3791f416403d71182ac5531778[m
+Author: lihaitao <lihaitao@66123123.net>
+Date:   Tue Oct 22 18:06:08 2019 +0800
+
+    add 修改业务员
+
+[33mcommit 5cccb981a00e68d2dcf84df7cbcc760d28c8e27a[m
+Merge: 301fe110 cde938af
+Author: 李海涛 <474133285@qq.com>
+Date:   Tue Oct 22 09:11:25 2019 +0000
+
+    Merge branch 'master' into 'release'
+    
+    Master
+    
+    See merge request leading-frontend/leading-erp-frontend!1815
+
+[33mcommit cde938af0abb3a9fcfa51bf22e98a144d7c7320d[m[33m ([m[1;31morigin/hotfix-20191022-v1.0.10-invoiceOrder[m[33m)[m
+Merge: 2af95d0e 301fe110
+Author: 李海涛 <474133285@qq.com>
+Date:   Tue Oct 22 09:10:44 2019 +0000
+
+    Merge branch 'release' into 'master'
+    
+    # Conflicts:
+    #   src/components/goods/goodsCorrespond/GoodsCorrespondDetail.vue
+    #   src/components/goods/goodsCorrespond/GoodsCorrespondManage.vue
+    #   src/components/goods/goodsCorrespond/child/CorrespondGoods.vue
+    #   src/components/goods/goodsCorrespond/child/NewGoodsSearch.vue
+    #   src/components/goods/goodsCorrespond/child/OldSearch.vue
+    #   src/components/goods/goodsManage/goodsManage.vue
+    #   src/components/order/saleDown/index.vue
+    #   src/components/purchase/PurchaseOrderManage/addPurchaseOrder.vue
+    #   src/router/index.js
+
+[33mcommit d922dc300919bfbd4c0cb6b8c5c5083754a647e8[m[33m ([m[1;31morigin/feature-goods-1022[m[33m)[m
+Merge: 26e12e11 245b3719
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 22 16:53:26 2019 +0800
+
+    Merge branch 'feature-release-20191013-v1.1-task1' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-goods-1022
+
+[33mcommit 26e12e11b0a5ee9a8e20bd149570088448be33c4[m
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 22 16:53:14 2019 +0800
+
+    修改
+
+[33mcommit 245b3719c07dd8ec61fa5cfbd6d4ca6c25d2895f[m
+Merge: b5645727 40995c45
+Author: tanhua2019 <534066776@qq.com>
+Date:   Tue Oct 22 16:42:26 2019 +0800
+
+    Merge branch 'feature-release-20191013-v1.1-task1' of ssh://gitlab.66123123.com:8012/leading-frontend/leading-erp-frontend into feature-release-20191013-v1.1-task1
+
+[33mcommit b5645727ba33f33491f32ff1a5dca9c1ff899c88[m
+Author: tanhua2019 <534066776@qq.com>
+Date:   Tue Oct 22 16:42:06 2019 +0800
+
+    商品池，发票记录，废票
+
+[33mcommit 40995c45331db30bea892a703c453b2d45f495e0[m
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 22 16:33:54 2019 +0800
+
+    xiugai
+
+[33mcommit b9770bf47e5a04e60921251c278d91f0ffb3989a[m
+Merge: 494196e3 d545afbb
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 22 15:52:14 2019 +0800
+
+    Merge branch 'feature-release-20191013-v1.1-task1' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-goods-1022
+
+[33mcommit 494196e3be45b0dacc81014937cd28eff8904449[m
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 22 15:50:11 2019 +0800
+
+    新增商品撤回审核
+
+[33mcommit 2af95d0e77e98f6817544016242db5919226cdfb[m[33m ([m[1;33mtag: v1.0.10[m[33m)[m
+Merge: d878d4b3 d67a4dad
+Author: 李海涛 <474133285@qq.com>
+Date:   Tue Oct 22 07:18:21 2019 +0000
+
+    Merge branch 'hotfix-20191017-v1.0.7' into 'master'
+    
+    Hotfix 20191017 v1.0.7
+    
+    See merge request leading-frontend/leading-erp-frontend!1812
+
+[33mcommit d67a4dad2439463e2a2b1cd59e37b0fd393be7db[m
+Merge: 89c0edcd ffc67a20
+Author: 李海涛 <474133285@qq.com>
+Date:   Tue Oct 22 07:17:03 2019 +0000
+
+    Merge branch 'feature-goods-1021' into 'hotfix-20191017-v1.0.7'
+    
+    Feature goods 1021
+    
+    See merge request leading-frontend/leading-erp-frontend!1811
+
+[33mcommit ffc67a2034f0f767232f1011d5befa3c74f7e4bc[m
+Merge: d8a6b6ff 89c0edcd
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 22 15:16:15 2019 +0800
+
+    Merge branch 'hotfix-20191017-v1.0.7' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-goods-1021
+
+[33mcommit d8a6b6ff67841947ff273cefca52ae0c23f74c41[m
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 22 15:16:09 2019 +0800
+
+    修改编辑商品规格型号联动
+
+[33mcommit 89c0edcdf5c4e87edcdca375ded42b28990ac679[m
+Author: lihaitao <lihaitao@66123123.net>
+Date:   Tue Oct 22 15:10:22 2019 +0800
+
+    异常订单处理-金钱位数优化
+
+[33mcommit d878d4b31edaf6a626a459c02258081558b54847[m
+Merge: 99ae94bd 904aa980
+Author: 李海涛 <474133285@qq.com>
+Date:   Tue Oct 22 07:03:43 2019 +0000
+
+    Merge branch 'hotfix-20191017-v1.0.7' into 'master'
+    
+    Hotfix 20191017 v1.0.7
+    
+    See merge request leading-frontend/leading-erp-frontend!1810
+
+[33mcommit 904aa980b49d9cc492b3460d0b1a3f11373f30a8[m
+Merge: d10056d9 55cd8f30
+Author: 李海涛 <474133285@qq.com>
+Date:   Tue Oct 22 06:59:12 2019 +0000
+
+    Merge branch 'feature-goods-1021' into 'hotfix-20191017-v1.0.7'
+    
+    Feature goods 1021
+    
+    See merge request leading-frontend/leading-erp-frontend!1809
+
+[33mcommit 55cd8f30d21e3e445e41e96497c3a140d92ca70b[m
+Merge: 49b40222 d10056d9
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 22 14:57:49 2019 +0800
+
+    Merge branch 'hotfix-20191017-v1.0.7' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-goods-1021
+
+[33mcommit 49b40222de614766eac6d5c3d6ffe10bb5475f9b[m
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 22 14:57:09 2019 +0800
+
+    修改线上bug
+
+[33mcommit d10056d97952130073903dd503c991db87ebb4e5[m
+Author: DESKTOP-8U39NMI\panta <pantaiyutimeless@163.com>
+Date:   Tue Oct 22 14:22:39 2019 +0800
+
+    修改销售下单一个小小的问题
+
+[33mcommit 54eb294f81ba795971aeb21e7909966f09b2e867[m
+Author: wangjiang <472788915@qq.com>
+Date:   Tue Oct 22 13:45:56 2019 +0800
+
+    修改商品
+
+[33mcommit 99ae94bd9b8d3286f3751030706bc1950648d700[m[33m ([m[1;33mtag: v1.0.9[m[33m)[m
+Merge: 6b3a2e8a 35a6a1f0
+Author: 李海涛 <474133285@qq.com>
+Date:   Mon Oct 21 12:49:48 2019 +0000
+
+    Merge branch 'hotfix-20191017-v1.0.7' into 'master'
+    
+    Hotfix 20191017 v1.0.7
+    
+    See merge request leading-frontend/leading-erp-frontend!1808
+
+[33mcommit 35a6a1f004cd1e8e022fc7cec1c105181204b1c8[m
+Merge: 737e3742 25e8e0b5
+Author: 李海涛 <474133285@qq.com>
+Date:   Mon Oct 21 12:49:26 2019 +0000
+
+    Merge branch 'feature-goods-1021' into 'hotfix-20191017-v1.0.7'
+    
+    Feature goods 1021
+    
+    See merge request leading-frontend/leading-erp-frontend!1807
+
+[33mcommit 25e8e0b5d031f5c65628be484d30686a389670d8[m
+Merge: 409c3abd 737e3742
+Author: wangjiang <472788915@qq.com>
+Date:   Mon Oct 21 20:49:04 2019 +0800
+
+    Merge branch 'hotfix-20191017-v1.0.7' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-goods-1021
+
+[33mcommit 409c3abdf85e59857aac6a4259114129f9de4edd[m
+Author: wangjiang <472788915@qq.com>
+Date:   Mon Oct 21 20:48:59 2019 +0800
+
+    修改
+
+[33mcommit 6b3a2e8ae5d9c187b786ee92a209382884bf3440[m
+Merge: f04e2926 737e3742
+Author: 李海涛 <474133285@qq.com>
+Date:   Mon Oct 21 12:37:53 2019 +0000
+
+    Merge branch 'hotfix-20191017-v1.0.7' into 'master'
+    
+    Hotfix 20191017 v1.0.7
+    
+    See merge request leading-frontend/leading-erp-frontend!1806
+
+[33mcommit 737e37423a716a0c9451c1526641747b0fea3386[m
+Merge: ded6b1ec 93af9e8f
+Author: 李海涛 <474133285@qq.com>
+Date:   Mon Oct 21 12:37:29 2019 +0000
+
+    Merge branch 'feature-goods-1021' into 'hotfix-20191017-v1.0.7'
+    
+    Feature goods 1021
+    
+    See merge request leading-frontend/leading-erp-frontend!1805
+
+[33mcommit 93af9e8fbc4f241a0ebd9f49f4e43798438ef461[m
+Author: wangjiang <472788915@qq.com>
+Date:   Mon Oct 21 20:36:47 2019 +0800
+
+    修改商品对应
+
+[33mcommit c3f0c205274d5f8ae93314a9cc0389ab0610006c[m
+Merge: ffb7f084 ded6b1ec
+Author: wangjiang <472788915@qq.com>
+Date:   Mon Oct 21 20:30:37 2019 +0800
+
+    Merge branch 'hotfix-20191017-v1.0.7' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-goods-1021
+
+[33mcommit ffb7f084b96283d5c1b31362effbb81139991b5e[m
+Author: wangjiang <472788915@qq.com>
+Date:   Mon Oct 21 20:30:29 2019 +0800
+
+    xiugai
+
+[33mcommit f04e292641794b78ca2629c360903e68b373e578[m
+Merge: 4ebc1530 ded6b1ec
+Author: 李海涛 <474133285@qq.com>
+Date:   Mon Oct 21 12:28:40 2019 +0000
+
+    Merge branch 'hotfix-20191017-v1.0.7' into 'master'
+    
+    Hotfix 20191017 v1.0.7
+    
+    See merge request leading-frontend/leading-erp-frontend!1804
+
+[33mcommit ded6b1ecd6078a2c9b4a88dd5ce5e9e217ea382c[m
+Author: lihaitao <lihaitao@66123123.net>
+Date:   Mon Oct 21 20:20:05 2019 +0800
+
+    update
+
+[33mcommit 1d684d6882e21a7f62b0356bf924f187abe608df[m
+Merge: 1a145f05 ef098945
+Author: lihaitao <lihaitao@66123123.net>
+Date:   Mon Oct 21 20:12:32 2019 +0800
+
+    Merge branch 'hotfix-20191017-v1.0.7' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into hotfix-20191017-v1.0.7
+
+[33mcommit 1a145f056547a1eabdfed6bd0573d255fc04a13b[m
+Author: lihaitao <lihaitao@66123123.net>
+Date:   Mon Oct 21 20:12:25 2019 +0800
+
+    update
+
+[33mcommit ef0989453c3eeb0f2bdd755d6c70b023a369539f[m
+Merge: ee3323a7 c58f86a6
+Author: 李海涛 <474133285@qq.com>
+Date:   Mon Oct 21 11:58:02 2019 +0000
+
+    Merge branch 'feature-goods-1021' into 'hotfix-20191017-v1.0.7'
+    
+    Feature goods 1021
+    
+    See merge request leading-frontend/leading-erp-frontend!1803
+
+[33mcommit c58f86a63d1b42d1d54b2082494970467712969f[m
+Author: wangjiang <472788915@qq.com>
+Date:   Mon Oct 21 19:57:19 2019 +0800
+
+    修改复制商品
+
+[33mcommit 9cb69281f647b9da3ba5aa74bf2e9c0cc6ad8600[m
+Merge: e866a768 ee3323a7
+Author: wangjiang <472788915@qq.com>
+Date:   Mon Oct 21 19:55:20 2019 +0800
+
+    Merge branch 'hotfix-20191017-v1.0.7' of http://gitlab.66123123.com/leading-frontend/leading-erp-frontend into feature-goods-1021

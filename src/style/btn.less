@@ -1,0 +1,119 @@
+@import "./index.less";
+.colorBtn(@color){
+    background: @color;
+    border-color: @color;
+  &:hover{
+    cursor: pointer;
+    &:before,
+    &:after{
+    }
+  }
+}
+//确认的button按钮
+.blue-btn{
+  .colorBtn(#2e8a8a);
+  width: 112px;
+  height: 40px;
+}
+.blue-btn:hover{
+  border-color: #339999;
+  background-color: #339999;
+}
+//错误的button的样式
+.error-btn{
+  .colorBtn(#F04844);
+  width: 112px;
+  height: 40px;
+}
+//高度为40px，确认按钮
+.pan-btn{
+  font-size: 14px;
+  color: #fff;
+  border-radius:3px;
+  box-sizing:border-box;
+  font-weight: 500;
+  display: inline-block;
+  line-height: 40px;
+  white-space: nowrap;
+  text-align: center ;
+  .icon{
+    color: #606266;
+    line-height: 40px;
+  }
+}
+
+//带图标按钮的样式
+.white-btn{
+  .colorBtn(#fff) ;
+  font-size: 12px;
+  min-width: 80px;
+  height: 30px;
+  border-radius: 3px;
+}
+.fun-btn{
+  font-size: 12px ;
+  color: #606266;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 30px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: center;
+  border: 1px solid #c2e0e0;
+  box-sizing:border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  .iconfont{
+    color: #606266;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+.fun-btn:hover{
+  color: #339999;
+  border-color: #c2e0e0;
+  background-color: #ebf5f5;
+}
+.operation_btn {
+  background-color: #FFFFFF;
+  min-width: 80px;
+  height: 30px;
+  font-size: 12px ;
+  color: #606266;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 30px;
+  white-space: nowrap;
+  text-align: center;
+  border: 1px solid #d1d1d1;
+  box-sizing:border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  i{
+      margin-right: 5px;
+  }
+  }
+.operation_btn:hover {
+        cursor: pointer;
+        color: #339999;
+        border-color: #c2e0e0;
+        background-color: #ebf5f5;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
